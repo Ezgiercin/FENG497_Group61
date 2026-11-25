@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from src.g61.data_loader import load_subject, get_imu
+from g61.data_loader import load_subject, get_imu
 
 
 @pytest.fixture
