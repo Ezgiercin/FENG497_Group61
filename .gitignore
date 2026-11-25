@@ -1,0 +1,28 @@
+# Data and generated outputs (too large for git; recreated by the pipeline)
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.parquet
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.streamlit/secrets.toml
